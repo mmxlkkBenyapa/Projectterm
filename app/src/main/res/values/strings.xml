@@ -25,5 +25,8 @@
     <string name="wintext">YOU WIN!!</string>
     <string name="losetext">YOU LOSE!!</string>
     <string name="tryagainbtn">TRY AGAIN</string>
+    <string name="aboutmetext">59160581 Benyapa Thakoengsuk</string>
+    <string name="abouttext">ABOUT</string>
+    <string name="aboutimage" />
 
 </resources>
