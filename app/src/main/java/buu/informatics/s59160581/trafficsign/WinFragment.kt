@@ -50,5 +50,4 @@ class WinFragment : Fragment() {
     }
 
 
-
 }

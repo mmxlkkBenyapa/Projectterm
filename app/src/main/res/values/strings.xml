@@ -20,5 +20,10 @@
     <string name="questionimage">questionimage</string>
     <string name="secondanswerradiobutton">RadioButton</string>
     <string name="thirdanswerradiobutton">RadioButton</string>
+    <string name="congratulationtext">CONGRATULATION!!</string>
+    <string name="homebtn">HOME</string>
+    <string name="wintext">YOU WIN!!</string>
+    <string name="losetext">YOU LOSE!!</string>
+    <string name="tryagainbtn">TRY AGAIN</string>
 
 </resources>
