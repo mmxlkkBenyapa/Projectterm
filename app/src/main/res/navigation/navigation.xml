@@ -22,6 +22,10 @@
             android:id="@+id/action_homeFragment_to_stopFragment"
             app:destination="@id/stopFragment"
             app:popUpTo="@+id/homeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_winFragment"
+            app:destination="@id/winFragment"
+            app:popUpTo="@+id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
@@ -33,7 +37,8 @@
             app:destination="@id/winFragment" />
         <action
             android:id="@+id/action_gameFragment_to_loseFragment"
-            app:destination="@id/loseFragment" />
+            app:destination="@id/loseFragment"
+            app:popUpTo="@+id/gameFragment" />
     </fragment>
     <fragment
         android:id="@+id/warningFragment"

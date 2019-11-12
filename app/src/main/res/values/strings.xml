@@ -28,5 +28,9 @@
     <string name="aboutmetext">59160581 Benyapa Thakoengsuk</string>
     <string name="abouttext">ABOUT</string>
     <string name="aboutimage" />
+    <string name="rulestext">RULES</string>
+    <string name="rulesdescriptext">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.  If you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="warningsignimg" />
+    <string name="stopsignimg">TODO</string>
 
 </resources>
