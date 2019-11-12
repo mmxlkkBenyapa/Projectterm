@@ -8,25 +8,26 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#3F51B5">
 
         <ImageView
             android:id="@+id/aboutimage"
             android:layout_width="286dp"
             android:layout_height="370dp"
+            android:contentDescription="@string/aboutimage"
             android:src="@drawable/mmxlkk"
             app:layout_constraintBottom_toTopOf="@+id/textView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/abouttext"
-            android:contentDescription="@string/aboutimage" />
+            app:layout_constraintTop_toBottomOf="@+id/abouttext" />
 
         <TextView
             android:id="@+id/abouttext"
             android:layout_width="131dp"
             android:layout_height="34dp"
             android:layout_marginTop="32dp"
-            android:background="#8856E2"
+            android:background="#9C27B0"
             android:text="@string/abouttext"
             android:textAlignment="center"
             android:textColor="@android:color/white"
@@ -39,7 +40,7 @@
             android:id="@+id/textView2"
             android:layout_width="378dp"
             android:layout_height="34dp"
-            android:background="#A679F0"
+            android:background="#9C27B0"
             android:text="@string/aboutmetext"
             android:textAlignment="center"
             android:textColor="@android:color/white"

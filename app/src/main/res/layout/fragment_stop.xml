@@ -8,7 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#FF5722">
 
         <TextView
             android:id="@+id/stopsigntext"
@@ -28,11 +29,11 @@
             android:id="@+id/stopsignimg"
             android:layout_width="381dp"
             android:layout_height="541dp"
+            android:contentDescription="@string/stopsignimg"
             android:src="@drawable/sign_warning"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/stopsigntext"
-            android:contentDescription="@string/stopsignimg" />
+            app:layout_constraintTop_toBottomOf="@+id/stopsigntext" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
